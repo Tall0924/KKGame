@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_jars__:D.\Workspace_AS\87873game\87873game_as\pushSDK\libs\wire-runtime-1.7.0.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pushSDK/libs/wire-runtime-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

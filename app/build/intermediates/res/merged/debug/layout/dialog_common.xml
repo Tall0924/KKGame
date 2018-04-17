@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="480dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp" 
+        >
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_login"
+            android:textColor="#333333"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/text_size_16"
+            />
+
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:paddingTop="6dp"
+            >
+            <Button
+	            android:id="@+id/btn_cancle"
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:layout_height="40dp"
+	            android:layout_margin="10dp"
+	            android:background="@drawable/btn_corner_s_gray"
+	            android:text="@string/cancle"
+	            android:textColor="#676767"
+	            android:textSize="@dimen/text_size_16" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="0dp"
+	            android:layout_weight="1"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_corner_s_blue"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_16" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

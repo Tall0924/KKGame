@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="after_clk">#33a0fd</color>
+    <color name="before_clk">#dbdbdb</color>
+    <color name="bg_classifydetail_tag_n">#FFFFFF</color>
+    <color name="bg_classifydetail_tag_p">#66FFFFFF</color>
+    <color name="bg_space">#F0F0F0</color>
+    <color name="bg_title">#fafafa</color>
+    <color name="black">#000000</color>
+    <color name="color_game_detail_bg">#33a0fd</color>
+    <color name="color_game_detail_progress">#0a6db9</color>
+    <color name="color_press">#33000000</color>
+    <color name="corner_color">#439BFF</color>
+    <color name="dialog_text_title">#F9C349</color>
+    <color name="gift_content">#989797</color>
+    <color name="gift_detail_residue">#FE5946</color>
+    <color name="gift_detail_text_bg">#EBECE7</color>
+    <color name="gift_residue">#F35B43</color>
+    <color name="home_bg">#F0F0F0</color>
+    <color name="home_tab_bg">#FFFFFF</color>
+    <color name="home_tab_text_n">#808080</color>
+    <color name="home_tab_text_p">#33A0FD</color>
+    <color name="index_item_bg">#FFFFFF</color>
+    <color name="index_nav">#FFFFFF</color>
+    <color name="index_nav_n">#F0F0F0</color>
+    <color name="index_nav_p">#33A0FD</color>
+    <color name="index_title">#333333</color>
+    <color name="index_title_bg">#439BFF</color>
+    <color name="line">#E5E5E5</color>
+    <color name="line_CCCCCC">#CCCCCC</color>
+    <color name="list_title">#33a0fd</color>
+    <color name="mine_about_us_text_color">#000000</color>
+    <color name="mine_bg">#EBECE7</color>
+    <color name="mine_border">#FFB400</color>
+    <color name="mine_color_green_78BC05">#78BC05</color>
+    <color name="mine_dialog_text_color">#F9C349</color>
+    <color name="mine_head_line">#FFB400</color>
+    <color name="mine_login_line">#F6BA31</color>
+    <color name="mine_text_black_323232">#323232</color>
+    <color name="mine_text_black_333333">#333333</color>
+    <color name="mine_text_black_424242">#424342</color>
+    <color name="mine_text_black_4C4C4C">#4C4C4C</color>
+    <color name="mine_text_blue_33A0FD">#33A0FD</color>
+    <color name="mine_text_gray">#777777</color>
+    <color name="mine_text_gray_4D4D4D">#4D4D4D</color>
+    <color name="mine_text_gray_575757">#575757</color>
+    <color name="mine_text_gray_636363">#636363</color>
+    <color name="mine_text_gray_666666">#666666</color>
+    <color name="mine_text_gray_808080">#808080</color>
+    <color name="mine_text_gray_999999">#999999</color>
+    <color name="mine_text_gray_D8D8D8">#D8D8D8</color>
+    <color name="mine_text_gray_a8a8a8">#a8a8a8</color>
+    <color name="mine_text_orange_D8985D">#D8985D</color>
+    <color name="mine_text_red_ff0000">#ff0000</color>
+    <color name="mine_user_info_boy">#1998FA</color>
+    <color name="mine_user_info_girl">#F358CF</color>
+    <color name="mine_user_info_line">#dfdede</color>
+    <color name="new_mine_bg">#F7F7F7</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="search_text_random_color_01">#F9C349</color>
+    <color name="search_text_random_color_02">#39BFA6</color>
+    <color name="search_text_random_color_03">#D255CE</color>
+    <color name="search_text_random_color_04">#5E89E8</color>
+    <color name="search_text_random_color_05">#7DAF50</color>
+    <color name="search_text_random_color_06">#54B9DE</color>
+    <color name="search_text_random_color_07">#262A7D</color>
+    <color name="search_text_random_color_08">#504E3E</color>
+    <color name="tb_munion_item_force">#e3e3e3</color>
+    <color name="text_classify_tag_n">#363636</color>
+    <color name="text_classify_tag_p">#33A0FD</color>
+    <color name="text_classify_type">#323232</color>
+    <color name="text_classifydetail_tag_n">#7F8C8D</color>
+    <color name="text_classifydetail_tag_p">#33A0FD</color>
+    <color name="text_game_detail_collect">#B2B2B2</color>
+    <color name="text_game_detail_collected">#FF818B</color>
+    <color name="text_index">#333333</color>
+    <color name="text_index2">#666666</color>
+    <color name="text_index_download_btn_n">#33A0FD</color>
+    <color name="text_index_download_btn_p">#FFFFFF</color>
+    <color name="text_index_nav_n">#333333</color>
+    <color name="text_index_nav_p">#33A0FD</color>
+    <color name="text_index_rank_nav_n">#F9C349</color>
+    <color name="text_index_rank_nav_p">#FFFFFF</color>
+    <color name="text_index_search">#666666</color>
+    <color name="text_index_tag">#333333</color>
+    <color name="text_rank">#666666</color>
+    <color name="text_subject_detail">#333333</color>
+    <color name="text_subject_list_time">#666666</color>
+    <color name="text_subject_list_title">#333333</color>
+    <color name="theme_color">#33A0FD</color>
+    <color name="toolbar_bg">#fcfcfc</color>
+    <color name="toolbar_border">#e5e5e5</color>
+    <color name="toolbar_btn">#33a0fd</color>
+    <color name="translucent_background">#60000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="umeng_socialize_color_group">#2c3035</color>
+    <color name="umeng_socialize_comments_bg">#F4F4F4</color>
+    <color name="umeng_socialize_divider">#E6E6E6</color>
+    <color name="umeng_socialize_edit_bg">#C4C4C4</color>
+    <color name="umeng_socialize_grid_divider_line">#F8F8F8</color>
+    <color name="umeng_socialize_list_item_bgcolor">#FFFFFF</color>
+    <color name="umeng_socialize_list_item_textcolor">#333333</color>
+    <color name="umeng_socialize_text_friends_list">#959696</color>
+    <color name="umeng_socialize_text_share_content">#666666</color>
+    <color name="umeng_socialize_text_time">#999999</color>
+    <color name="umeng_socialize_text_title">#464f61</color>
+    <color name="umeng_socialize_text_ucenter">#595959</color>
+    <color name="umeng_socialize_ucenter_bg">#EEEEEE</color>
+    <color name="viewfinder_mask">#70666666</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alphabet_size">12dip</dimen>
+    <dimen name="btn_height_40">40dp</dimen>
+    <dimen name="btn_height_45">45dp</dimen>
+    <dimen name="spacing_10">10dp</dimen>
+    <dimen name="spacing_12">12dp</dimen>
+    <dimen name="spacing_14">14dp</dimen>
+    <dimen name="spacing_16">16dp</dimen>
+    <dimen name="spacing_20">20dp</dimen>
+    <dimen name="spacing_4">4dp</dimen>
+    <dimen name="spacing_6">6dp</dimen>
+    <dimen name="spacing_8">8dp</dimen>
+    <dimen name="star_height">26px</dimen>
+    <dimen name="text_index_nav">15sp</dimen>
+    <dimen name="text_index_search">14sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_subject_detail">15sp</dimen>
+    <dimen name="text_subject_list">14sp</dimen>
+    <dimen name="umeng_socialize_pad_window_height">350dip</dimen>
+    <dimen name="umeng_socialize_pad_window_width">580dip</dimen>
+    <drawable name="transparent">@color/transparent</drawable>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <string name="UMAppUpdate">App updating</string>
+    <string name="UMBreak_Network">Please make sure you are connected to internet,update failed</string>
+    <string name="UMDialog_InstallAPK">The lastest version has been downloaded, install now ?</string>
+    <string name="UMGprsCondition">(Warning: Not WIFI Condition)</string>
+    <string name="UMIgnore">Ingore this</string>
+    <string name="UMNewVersion">Latest version: </string>
+    <string name="UMNotNow">Not now</string>
+    <string name="UMTargetSize">Target size: </string>
+    <string name="UMToast_IsUpdating">Updating....</string>
+    <string name="UMUpdateCheck">2.7.0.0.20160201</string>
+    <string name="UMUpdateContent">Update Content</string>
+    <string name="UMUpdateNow">Update now</string>
+    <string name="UMUpdateSize">Update size: </string>
+    <string name="UMUpdateTitle">New version found</string>
+    <string name="about_us">关于我们</string>
+    <string name="about_us_version">版本：</string>
+    <string name="album">相册</string>
+    <string name="all">全选</string>
+    <string name="all_item">全部</string>
+    <string name="already_for_no">已淘</string>
+    <string name="already_take">已领</string>
+    <string name="already_take_">，已领</string>
+    <string name="already_take_2">已领取</string>
+    <string name="app_name">87873手游</string>
+    <string name="applicable_area">【适用区服】</string>
+    <string name="applicable_area_default">全区全服</string>
+    <string name="applicable_platform">【适用平台】：</string>
+    <string name="applicable_platform_default">安卓</string>
+    <string name="applicable_validity">【礼包有效期】</string>
+    <string name="applicable_validity_default">2015年6月18日-7月18日</string>
+    <string name="auto_delete_package">自动删除安装包</string>
+    <string name="auto_delete_package_content">下载完成，自动删除安装包</string>
+    <string name="back_home">返回首页</string>
+    <string name="bibeiyouxi">必备游戏</string>
+    <string name="birthday">生日:</string>
+    <string name="book">预定</string>
+    <string name="bound_mobile">绑定手机:</string>
+    <string name="boy">男</string>
+    <string name="can_update">可更新</string>
+    <string name="cancle">取消</string>
+    <string name="cdkey">激活码</string>
+    <string name="cdkey_destription">该礼包已进行淘号，如激活码不能使用，请再淘一次</string>
+    <string name="chakanquanbu">查看全部</string>
+    <string name="change">换一批</string>
+    <string name="check_for_updates">检测更新</string>
+    <string name="check_your_network">请检查您的网络</string>
+    <string name="choice_date">日期选择</string>
+    <string name="choice_image_icon">图片路径</string>
+    <string name="classify">分类</string>
+    <string name="click_to_login">点击登录/注册</string>
+    <string name="close">收起</string>
+    <string name="code">验证码</string>
+    <string name="code_default">323r</string>
+    <string name="collect">收藏</string>
+    <string name="collect_cancel">取消收藏成功！</string>
+    <string name="collect_success">收藏成功！</string>
+    <string name="collected">已收藏</string>
+    <string name="confirm">确定</string>
+    <string name="confirm_new_password">确认新密码</string>
+    <string name="contact_way">联系方式</string>
+    <string name="continue_download">继续下载</string>
+    <string name="copy">复制</string>
+    <string name="copy_code">复制激活码</string>
+    <string name="copy_right_chinese">卡酷动漫 版权所有</string>
+    <string name="copy_right_english">Copyright 2016 All Righr Reserved</string>
+    <string name="copy_sucess">复制成功！</string>
+    <string name="current_version">当前版本：</string>
+    <string name="danjibang">单机</string>
+    <string name="default_birday">1990–11–12</string>
+    <string name="delete">删除</string>
+    <string name="detail">详情</string>
+    <string name="download">下载</string>
+    <string name="download_again">重新下载</string>
+    <string name="download_manager">下载管理</string>
+    <string name="download_now">立即下载</string>
+    <string name="download_setting">下载设置</string>
+    <string name="download_task">下载任务</string>
+    <string name="download_tip">您还没这款游戏呢~</string>
+    <string name="downloading">下载中</string>
+    <string name="exit">再按一次退出应用</string>
+    <string name="extend">展开</string>
+    <string name="find_password">找回密码</string>
+    <string name="finish">已结束</string>
+    <string name="for_num">淘号</string>
+    <string name="forget_password"><u>忘记密码？</u></string>
+    <string name="free_to_play">免费游戏</string>
+    <string name="game">游戏</string>
+    <string name="game_Prompt">温馨提示</string>
+    <string name="game_detail">游戏详情</string>
+    <string name="game_download">下载游戏</string>
+    <string name="game_intro">游戏介绍</string>
+    <string name="game_like">同类游戏</string>
+    <string name="game_update_log">更新内容</string>
+    <string name="game_zone">游戏专区</string>
+    <string name="gengxintishi">更新提示</string>
+    <string name="get_code">获取验证码</string>
+    <string name="get_sms_code">点击获取</string>
+    <string name="gift">礼包</string>
+    <string name="gift_content">礼包内容：</string>
+    <string name="gift_content_default">金币5w 1级随机符文*5强化水晶*5</string>
+    <string name="gift_description_default">已淘123456次</string>
+    <string name="gift_destription">礼包说明</string>
+    <string name="gift_destription_default">人物达到20级-游戏界面又上方</string>
+    <string name="gift_detail">礼包详情</string>
+    <string name="gift_detail_default">金币5w 1级符文*5 强化水晶*5</string>
+    <string name="gift_key">激活码：</string>
+    <string name="gift_key_default">v145d7dss5545</string>
+    <string name="gift_name_default">梦幻西游端午礼包</string>
+    <string name="gift_prefecture">礼包专区 </string>
+    <string name="gift_remark">备注</string>
+    <string name="gift_remark_default">该礼包适用于87873手机平台下载的游戏，同类礼包只可领取一次</string>
+    <string name="gift_residue_default">剩余70%</string>
+    <string name="girl">女</string>
+    <string name="global_exception_action">com.example.baseproject.general.utils.GlobalExceptionHanlder</string>
+    <string name="global_exception_enable">true</string>
+    <string name="global_exception_sdcard_dir">/87873game/log/</string>
+    <string name="go_on">继续</string>
+    <string name="has_complete">已完成</string>
+    <string name="has_download">已下载</string>
+    <string name="has_pause">已暂停</string>
+    <string name="have_account">已有账号？</string>
+    <string name="home_tab_index">游戏</string>
+    <string name="home_tab_sec">福利</string>
+    <string name="home_tab_third">我的</string>
+    <string name="hotest">最热</string>
+    <string name="index_bibei">必备</string>
+    <string name="index_jinbao">劲爆</string>
+    <string name="index_wangyou">网游</string>
+    <string name="index_xinyou">新游</string>
+    <string name="info">资讯</string>
+    <string name="info_detail">资讯详情</string>
+    <string name="info_url">http://wap.87873.cn/news/%1$d.html?from=app</string>
+    <string name="information">资讯</string>
+    <string name="input_game_name">输入游戏名进行搜索</string>
+    <string name="input_mobile">手机号码</string>
+    <string name="input_nick_name">输入4–20个字的昵称</string>
+    <string name="input_password">6–18位密码</string>
+    <string name="install">安装</string>
+    <string name="install_sucess_prompts">安装成功，已自动删除安装包</string>
+    <string name="installed">已安装</string>
+    <string name="intro">简介</string>
+    <string name="leave_your_advice">请输入内容</string>
+    <string name="light_on">开灯</string>
+    <string name="load_failure">加载失败</string>
+    <string name="load_no_data">没有数据</string>
+    <string name="loading">加载中…</string>
+    <string name="log">true</string>
+    <string name="login">登录</string>
+    <string name="login_"><u>登录</u></string>
+    <string name="login_87873">卡酷手游大厅</string>
+    <string name="login_to_collect">登录完成后才可进行收藏</string>
+    <string name="logout_account">注销账号</string>
+    <string name="meirixinyou">每日新游</string>
+    <string name="mine_coming_soon">敬请期待</string>
+    <string name="mine_favorites">我的收藏</string>
+    <string name="mine_game">我的游戏</string>
+    <string name="mine_gift">我的礼包</string>
+    <string name="mine_recommend">必玩推荐</string>
+    <string name="mine_voucher">代金券</string>
+    <string name="mobile_email">手机号/用戶名/邮箱</string>
+    <string name="mobile_or_email">为了方便联系，请填写联系方式</string>
+    <string name="mobile_register">手机注册</string>
+    <string name="modify">修改</string>
+    <string name="modify_user_icon">修改头像</string>
+    <string name="nav_desc">nav_desc</string>
+    <string name="need_net">需要网络</string>
+    <string name="network_prompts">您正在使用2G/3G/4G网络，下载可能产生流量费用，是否继续下载？</string>
+    <string name="new_gift">最新礼包</string>
+    <string name="new_password">6–18位新密码</string>
+    <string name="newest">最新</string>
+    <string name="next">下一步</string>
+    <string name="nick_name">昵称:</string>
+    <string name="no_collect">您还没有任何收藏</string>
+    <string name="no_free">道具付费</string>
+    <string name="no_gift">该游戏暂时没有礼包</string>
+    <string name="no_login">登录账号才能领取礼包</string>
+    <string name="no_need_net">无需网络</string>
+    <string name="notification">推送通知</string>
+    <string name="notification_describe">开启后接收消息栏消息推送</string>
+    <string name="official_sina">官方微博：87873手机游戏</string>
+    <string name="official_web">官方网站：www.87873.cn</string>
+    <string name="official_wx">官方微信：sj87873</string>
+    <string name="ok">确定</string>
+    <string name="only_wifi_download">仅在WIFI下进行下载</string>
+    <string name="only_wifi_download_decribe">开启后，非WIFI情况下下载会给予提示</string>
+    <string name="open">开始玩</string>
+    <string name="other">其他</string>
+    <string name="package_position">安装包下载位置</string>
+    <string name="package_position_content">安装包位置：</string>
+    <string name="part">份</string>
+    <string name="pause">暂停</string>
+    <string name="phone_picture">手机内部存储图片</string>
+    <string name="photograph">立即拍照</string>
+    <string name="pull_to_refresh_pull_label" translatable="false">向下拉动可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="false">加载中…</string>
+    <string name="pull_to_refresh_release_label" translatable="false">松开可以刷新</string>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+    <string name="qq">QQ</string>
+    <string name="qq_zone">QQ空间</string>
+    <string name="qr_code">二维码</string>
+    <string name="rank">排行</string>
+    <string name="re_input_password">请再次输密码</string>
+    <string name="recommed_to_friends">推荐给好友</string>
+    <string name="recommend">推荐</string>
+    <string name="refresh">刷新</string>
+    <string name="register">注册</string>
+    <string name="register_page">注册页面</string>
+    <string name="reset">重置</string>
+    <string name="residue">剩余</string>
+    <string name="residue_detail">500</string>
+    <string name="residue_time">剩余时间：</string>
+    <string name="residue_time_">剩余时间</string>
+    <string name="residue_time_default">26天8小时23分</string>
+    <string name="safe">安全认证</string>
+    <string name="save">保存</string>
+    <string name="search">搜索</string>
+    <string name="search_gift">搜索礼包</string>
+    <string name="search_gift_">搜礼包</string>
+    <string name="search_none">没有搜索到您要的游戏~</string>
+    <string name="search_page">搜索页面</string>
+    <string name="setting">设置</string>
+    <string name="sex">性别:</string>
+    <string name="share">分享</string>
+    <string name="share_to">我想分享到</string>
+    <string name="sms_code">请输入短信验证码</string>
+    <string name="subject">专题</string>
+    <string name="subject_detail">专题详情</string>
+    <string name="submit">提交</string>
+    <string name="suggestion_feedback">意见反馈</string>
+    <string name="sys_setting">系统设置</string>
+    <string name="take">领取</string>
+    <string name="take_gift">领取礼包</string>
+    <string name="take_gift_destription">需要下载该款游戏才能领取礼包！</string>
+    <string name="take_out">领光了</string>
+    <string name="tb_munion_tip_download_prefix">正在下载:</string>
+    <string name="tiaoguo">跳过</string>
+    <string name="time">次</string>
+    <string name="to_login">去登录</string>
+    <string name="to_see">去逛逛</string>
+    <string name="try_again">重试</string>
+    <string name="try_refresh">重新加载</string>
+    <string name="type_activity">活动</string>
+    <string name="type_evaluating">评测</string>
+    <string name="type_industry">行业</string>
+    <string name="type_news">新闻</string>
+    <string name="type_strategy">攻略</string>
+    <string name="umeng_common_action_cancel">Cancel</string>
+    <string name="umeng_common_action_continue">Continue</string>
+    <string name="umeng_common_action_info_exist">The app is already in downloading list.</string>
+    <string name="umeng_common_action_pause">Pause</string>
+    <string name="umeng_common_download_failed">Download Failed! </string>
+    <string name="umeng_common_download_finish">Download finished,click to install it.</string>
+    <string name="umeng_common_download_notification_prefix">Downloading: </string>
+    <string name="umeng_common_icon">icon</string>
+    <string name="umeng_common_info_interrupt">dowload interrupted.</string>
+    <string name="umeng_common_network_break_alert">Please make sure you are connected to internet, download failed</string>
+    <string name="umeng_common_patch_finish">Patch finished,click to install it.</string>
+    <string name="umeng_common_pause_notification_prefix">Pause: </string>
+    <string name="umeng_common_silent_download_finish">New version is ready,click to install it.</string>
+    <string name="umeng_common_start_download_notification">Download start.</string>
+    <string name="umeng_common_start_patch_notification">Patch start.</string>
+    <string name="umeng_example_home_btn_plus">社交分享</string>
+    <string name="umeng_socialize_back" translatable="false">返回</string>
+    <string name="umeng_socialize_cancel_btn_str">取消</string>
+    <string name="umeng_socialize_comment" translatable="false">评论</string>
+    <string name="umeng_socialize_comment_detail" translatable="false">评论详情</string>
+    <string name="umeng_socialize_content_hint">说点啥…</string>
+    <string name="umeng_socialize_friends" translatable="false">关注的好友</string>
+    <string name="umeng_socialize_img_des"/>
+    <string name="umeng_socialize_login">登录</string>
+    <string name="umeng_socialize_login_qq">QQ空间</string>
+    <string name="umeng_socialize_msg_hor" translatable="false">小时前</string>
+    <string name="umeng_socialize_msg_min" translatable="false">分钟前</string>
+    <string name="umeng_socialize_msg_sec" translatable="false">秒前</string>
+    <string name="umeng_socialize_near_At" translatable="false">最近\@的好友</string>
+    <string name="umeng_socialize_network_break_alert" translatable="false">请连接网络后再尝试！</string>
+    <string name="umeng_socialize_send" translatable="false">发布</string>
+    <string name="umeng_socialize_send_btn_str">发送</string>
+    <string name="umeng_socialize_share">分享</string>
+    <string name="umeng_socialize_share_content">友盟社会化组件（SDK）让移动应用快速整合社交分享功能，我们简化了社交平台的接入，为开发者提供坚实的基础服务。（一）支持各大主流社交平台， 
+												（二）支持图片、文字、gif动图、音频、视频；@好友，关注官方微博等功能。
+												（三）提供详尽的后台用户社交行为分析。www.umeng.com/social</string>
+    <string name="umeng_socialize_text_add_custom_platform">请配置用户平台</string>
+    <string name="umeng_socialize_text_authorize">授权</string>
+    <string name="umeng_socialize_text_choose_account">选择已有帐号登录</string>
+    <string name="umeng_socialize_text_comment_hint">说点什么吧…</string>
+    <string name="umeng_socialize_text_douban_key">豆瓣网</string>
+    <string name="umeng_socialize_text_friend_list">好友列表</string>
+    <string name="umeng_socialize_text_loading_message">载入中,请稍候...</string>
+    <string name="umeng_socialize_text_login_fail">登录失败了，请重试</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QQ空间</string>
+    <string name="umeng_socialize_text_renren_key">人人网</string>
+    <string name="umeng_socialize_text_sina_key">微博</string>
+    <string name="umeng_socialize_text_tencent_key">腾讯微博</string>
+    <string name="umeng_socialize_text_tencent_no_connection">无法连接到腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_no_install">未安装腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_oauth_login_fail">授权登录失败</string>
+    <string name="umeng_socialize_text_tencent_version_no_match">版本不匹配，SSO只对微博客户端V3.8.1及以上的版本提供支持</string>
+    <string name="umeng_socialize_text_ucenter">个人中心</string>
+    <string name="umeng_socialize_text_unauthorize">未授权</string>
+    <string name="umeng_socialize_text_visitor">游客</string>
+    <string name="umeng_socialize_text_waitting">请稍候...</string>
+    <string name="umeng_socialize_text_waitting_message">,请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qq">跳转QQ中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qzone">跳转QZone中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_redirect">跳转</string>
+    <string name="umeng_socialize_text_waitting_share">分享中…</string>
+    <string name="umeng_socialize_text_waitting_weixin">跳转微信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">跳转朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin">跳转易信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin_circle">跳转易信朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_weixin_circle_key">微信朋友圈</string>
+    <string name="umeng_socialize_text_weixin_key">微信</string>
+    <string name="umeng_socialize_tip_blacklist" translatable="false">对不起，因为违反了用户协议您已被禁言.</string>
+    <string name="umeng_socialize_tip_loginfailed" translatable="false">登录失败…</string>
+    <string name="umeng_socialize_ucenter_login_title_guide" translatable="false">游客登录</string>
+    <string name="umeng_socialize_ucenter_login_title_platform" translatable="false">登录帐号</string>
+    <string name="uninstall">卸载</string>
+    <string name="update">更新</string>
+    <string name="update_all">全部更新</string>
+    <string name="user_info">个人资料</string>
+    <string name="user_name">6–18位字母、数字、下划线组合</string>
+    <string name="user_name_register">用户名注册</string>
+    <string name="user_password">6–18位密码</string>
+    <string name="wait_get">等待获取</string>
+    <string name="waiting_download">等待中</string>
+    <string name="wangyoubang">网游</string>
+    <string name="wodeshoucang">我的收藏</string>
+    <string name="wx">微信</string>
+    <string name="wx_pyq">朋友圈</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载…</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="you_like">猜你喜欢</string>
+    <style name="ActivityDialogStyleBottom" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog"/>
+    <style name="Theme.Light.FullScreenDialogAct" parent="@style/BaseDialog">
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff555555</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <style name="Theme.UMDefault" parent="android:style/Theme.NoTitleBar"/>
+    <style name="Theme.UMDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="Transparent" parent="@android:style/Theme.NoTitleBar">
+
+
+　　                <item name="android:windowBackground">@color/transparent</item>
+
+
+　　                <item name="android:windowIsTranslucent">true</item>
+
+        　　        <item name="android:windowAnimationStyle">@null</item>
+
+
+
+　　</style>
+    <style name="custom_dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+    <style name="gameRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/game_rating_bar</item>
+        <!-- <item name="android:minHeight">@dimen/star_height</item> -->
+        <!-- <item name="android:maxHeight">@dimen/star_height</item> -->
+    </style>
+    <style name="home_tab">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="theme_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="theme_w_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="theme_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="umeng_socialize_action_bar_item_im">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="umeng_socialize_action_bar_item_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:text">999</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="umeng_socialize_action_bar_itemlayout">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="umeng_socialize_dialog_anim_fade">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_fade_out</item>
+    </style>
+    <style name="umeng_socialize_dialog_animations">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_slide_out_from_bottom</item>
+    </style>
+    <style name="umeng_socialize_divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/umeng_socialize_divider</item>
+    </style>
+    <style name="umeng_socialize_edit_padding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/umeng_socialize_list_item_bgcolor</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+    <style name="umeng_socialize_list_item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@color/umeng_socialize_list_item_bgcolor</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+    <style name="umeng_socialize_popup_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="umeng_socialize_popup_dialog_anim" parent="@style/umeng_socialize_popup_dialog">
+        <item name="android:windowAnimationStyle">@style/umeng_socialize_dialog_animations</item>
+    </style>
+    <style name="umeng_socialize_shareboard_animation">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_shareboard_animation_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_shareboard_animation_out</item>
+    </style>
+</resources>

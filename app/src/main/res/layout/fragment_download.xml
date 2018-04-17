@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/il_loadFailure"
+            layout="@layout/layout_load_failure"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/noData"
+            layout="@layout/layout_game_download_no_data"
+            android:visibility="gone" />
+
+        <com.xtone.game87873.general.widget.NoScrollListView
+            android:id="@+id/lvDownloading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/index_item_bg"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/tvComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/has_complete"
+            android:textColor="@color/text_index"
+            android:textSize="@dimen/text_index" />
+
+        <com.xtone.game87873.general.widget.NoScrollListView
+            android:id="@+id/lvHasDownload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/index_item_bg"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent" />
+    </LinearLayout>
+
+</ScrollView>

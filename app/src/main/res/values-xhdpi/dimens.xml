@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- 首页 -->
+    <dimen name="text_title">16sp</dimen>
+    <dimen name="text_index">14sp</dimen>
+    <dimen name="text_index_little">12sp</dimen>
+
+    <!-- 列表中游戏图标宽高 -->
+    <dimen name="game_icon_width">65dp</dimen>
+    <!-- 主题图标 -->
+    <dimen name="subject_icon_width">120dp</dimen>
+    <dimen name="subject_icon_height">60dp</dimen>
+    <dimen name="information_icon_width">130dp</dimen>
+    <dimen name="information_icon_height">65dp</dimen>
+    <dimen name="intro_pic_width">155dp</dimen>
+    <dimen name="intro_pic_height">235dp</dimen>
+    <!-- 下载按钮宽高 -->
+    <dimen name="download_btn_width">50dp</dimen>
+    <dimen name="download_btn_height">25dp</dimen>
+    <!-- 我的收藏页更新时间字体大小 -->
+    <dimen name="text_collect_little">12sp</dimen>
+
+</resources>

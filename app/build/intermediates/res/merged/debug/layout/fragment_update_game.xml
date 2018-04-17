@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/noData"
+        layout="@layout/layout_game_download_no_data"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_update_all"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/update_all"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_index" />
+    </RelativeLayout>
+
+    <include
+        layout="@layout/line"
+        android:visibility="gone" />
+
+    <com.xtone.game87873.general.widget.xlistview.XListView
+        android:id="@+id/lvContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" />
+
+</LinearLayout>

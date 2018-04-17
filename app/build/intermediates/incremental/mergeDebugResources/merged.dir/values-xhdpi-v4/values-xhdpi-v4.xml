@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="download_btn_height">25dp</dimen>
+    <dimen name="download_btn_width">50dp</dimen>
+    <dimen name="game_icon_width">65dp</dimen>
+    <dimen name="information_icon_height">65dp</dimen>
+    <dimen name="information_icon_width">130dp</dimen>
+    <dimen name="intro_pic_height">235dp</dimen>
+    <dimen name="intro_pic_width">155dp</dimen>
+    <dimen name="subject_icon_height">60dp</dimen>
+    <dimen name="subject_icon_width">120dp</dimen>
+    <dimen name="text_collect_little">12sp</dimen>
+    <dimen name="text_index">14sp</dimen>
+    <dimen name="text_index_little">12sp</dimen>
+    <dimen name="text_title">16sp</dimen>
+</resources>

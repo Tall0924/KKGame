@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">87873手游</string>
+    <string name="home_tab_index">游戏</string>
+    <string name="home_tab_sec">福利</string>
+    <string name="home_tab_third">我的</string>
+    <string name="exit">再按一次退出应用</string>
+    <string name="install">安装</string>
+    <string name="installed">已安装</string>
+    <string name="open">开始玩</string>
+    <string name="uninstall">卸载</string>
+    <string name="update">更新</string>
+    <string name="download">下载</string>
+    <string name="download_now">立即下载</string>
+    <string name="downloading">下载中</string>
+    <string name="pause">暂停</string>
+    <string name="go_on">继续</string>
+    <string name="try_again">重试</string>
+    <string name="wait_get">等待获取</string>
+    <string name="waiting_download">等待中</string>
+    <string name="has_download">已下载</string>
+    <string name="has_complete">已完成</string>
+    <string name="has_pause">已暂停</string>
+    <string name="download_again">重新下载</string>
+    <string name="loading">加载中&#8230;</string>
+    <string name="all_item">全部</string>
+    <string name="to_login">去登录</string>
+    <string name="no_login">登录账号才能领取礼包</string>
+    <string name="collect_success">收藏成功！</string>
+    <string name="collect_cancel">取消收藏成功！</string>
+    <string name="confirm">确定</string>
+    <string name="subject_detail">专题详情</string>
+    <string name="info_detail">资讯详情</string>
+    <string name="tiaoguo">跳过</string>
+    <string name="install_sucess_prompts">安装成功，已自动删除安装包</string>
+    <string name="chakanquanbu">查看全部</string>
+
+    <!-- 对话框 -->
+    <string name="cdkey">激活码</string>
+    <string name="cdkey_destription">该礼包已进行淘号，如激活码不能使用，请再淘一次</string>
+    <string name="take_gift_destription">需要下载该款游戏才能领取礼包！</string>
+    <string name="choice_date">日期选择</string>
+    <string name="ok">确定</string>
+    <string name="network_prompts">您正在使用2G/3G/4G网络，下载可能产生流量费用，是否继续下载？</string>
+    <string name="continue_download">继续下载</string>
+    <!-- 首页 -->
+    <string name="recommend">推荐</string>
+    <string name="classify">分类</string>
+    <string name="subject">专题</string>
+    <string name="rank">排行</string>
+    <string name="info">资讯</string>
+    <string name="index_xinyou">新游</string>
+    <string name="index_bibei">必备</string>
+    <string name="index_jinbao">劲爆</string>
+    <string name="index_wangyou">网游</string>
+    <!--资讯  -->
+    <string name ="info_url">http://wap.87873.cn/news/%1$d.html?from=app</string>
+    <!-- 游戏详情 -->
+    <string name="game_detail">游戏详情</string>
+    <string name="game_zone">游戏专区</string>
+    <string name="intro">简介</string>
+    <string name="game_intro">游戏介绍</string>
+    <string name="game_Prompt">温馨提示</string>
+    <string name="game_update_log">更新内容</string>
+    <string name="game_like">同类游戏</string>
+    <string name="gift">礼包</string>
+    <string name="no_gift">该游戏暂时没有礼包</string>
+    <string name="detail">详情</string>
+    <string name="collect">收藏</string>
+    <string name="collected">已收藏</string>
+    <string name="extend">展开</string>
+    <string name="close">收起</string>
+    <string name="safe">安全认证</string>
+    <string name="no_free">道具付费</string>
+    <string name="free_to_play">免费游戏</string>
+    <string name="need_net">需要网络</string>
+    <string name="no_need_net">无需网络</string>
+    <string name="type_news">新闻</string>
+    <string name="type_industry">行业</string>
+    <string name="type_strategy">攻略</string>
+    <string name="type_activity">活动</string>
+    <string name="type_evaluating">评测</string>
+    <!-- 我的 -->
+    <string name="setting">设置</string>
+    <string name="sys_setting">系统设置</string>
+    <string name="click_to_login">点击登录/注册</string>
+    <string name="mine_gift">我的礼包</string>
+    <string name="mine_game">我的游戏</string>
+    <string name="mine_favorites">我的收藏</string>
+    <string name="mine_recommend">必玩推荐</string>
+    <string name="mine_voucher">代金券</string>
+    <string name="mine_coming_soon">敬请期待</string>
+    <!-- 我的游戏 -->
+    <string name="can_update">可更新</string>
+    <string name="download_manager">下载管理</string>
+    <string name="download_task">下载任务</string>
+    <string name="update_all">全部更新</string>
+    <!-- 设置 -->
+    <string name="download_setting">下载设置</string>
+    <string name="only_wifi_download_decribe">开启后，非WIFI情况下下载会给予提示</string>
+    <string name="only_wifi_download">仅在WIFI下进行下载</string>
+    <string name="auto_delete_package">自动删除安装包</string>
+    <string name="auto_delete_package_content">下载完成，自动删除安装包</string>
+    <string name="package_position">安装包下载位置</string>
+    <string name="package_position_content">安装包位置：</string>
+    <string name="other">其他</string>
+    <string name="current_version">当前版本：</string>
+    <string name="logout_account">注销账号</string>
+    <string name="share_to">我想分享到</string>
+    <string name="share">分享</string>
+    <string name="wx">微信</string>
+    <string name="wx_pyq">朋友圈</string>
+    <string name="qq">QQ</string>
+    <string name="qq_zone">QQ空间</string>
+    <!-- 我关于我们 -->
+    <string name="about_us">关于我们</string>
+    <string name="check_for_updates">检测更新</string>
+    <string name="recommed_to_friends">推荐给好友</string>
+    <string name="suggestion_feedback">意见反馈</string>
+    <string name="notification">推送通知</string>
+    <string name="notification_describe">开启后接收消息栏消息推送</string>
+    <string name="about_us_version">版本：</string>
+    <string name="official_web">官方网站：www.87873.cn</string>
+    <string name="official_wx">官方微信：sj87873</string>
+    <string name="official_sina">官方微博：87873手机游戏</string>
+    <string name="copy_right_chinese">卡酷动漫 版权所有</string>
+    <string name="copy_right_english">Copyright 2016 All Righr Reserved</string>
+    <!-- 登录 -->
+    <string name="login_87873">卡酷手游大厅</string>
+    <string name="mobile_email">手机号/用戶名/邮箱</string>
+    <string name="user_password">6&#8211;18位密码</string>
+    <string name="forget_password"><u>忘记密码？</u></string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <!-- 个人资料 -->
+    <string name="user_info">个人资料</string>
+    <string name="modify_user_icon">修改头像</string>
+    <string name="bound_mobile">绑定手机:</string>
+    <string name="input_mobile">手机号码</string>
+    <string name="nick_name">昵称:</string>
+    <string name="input_nick_name">输入4&#8211;20个字的昵称</string>
+    <string name="sex">性别:</string>
+    <string name="birthday">生日:</string>
+    <string name="default_birday">1990&#8211;11&#8211;12</string>
+    <string name="boy">男</string>
+    <string name="girl">女</string>
+    <string name="save">保存</string>
+    <string name="album">相册</string>
+    <string name="phone_picture">手机内部存储图片</string>
+    <string name="photograph">立即拍照</string>
+    <string name="cancle">取消</string>
+    <string name="choice_image_icon">图片路径</string>
+    <string name="gengxintishi">更新提示</string>
+
+    <!-- 首页排行页 -->
+    <string name="danjibang">单机</string>
+    <string name="wangyoubang">网游</string>
+    <string name="you_like">猜你喜欢</string>
+    <!-- 分类页 -->
+    <string name="hotest">最热</string>
+    <string name="newest">最新</string>
+    <!-- 必备页 -->
+    <string name="bibeiyouxi">必备游戏</string>
+    <!-- 每日新游 -->
+    <string name="meirixinyou">每日新游</string>
+
+    <!-- 礼包 -->
+    <string name="search_gift">搜索礼包</string>
+    <string name="gift_prefecture">礼包专区 </string>
+    <string name="gift_name_default">梦幻西游端午礼包</string>
+    <string name="gift_description_default">已淘123456次</string>
+    <string name="gift_content">礼包内容：</string>
+    <string name="gift_content_default">金币5w 1级随机符文*5强化水晶*5</string>
+    <string name="book">预定</string>
+    <string name="take_out">领光了</string>
+    <string name="take">领取</string>
+    <string name="already_take_2">已领取</string>
+    <string name="for_num">淘号</string>
+    <string name="gift_residue_default">剩余70%</string>
+    <string name="gift_key">激活码：</string>
+    <string name="gift_key_default">v145d7dss5545</string>
+    <string name="copy">复制</string>
+    <string name="copy_sucess">复制成功！</string>
+    <string name="copy_code">复制激活码</string>
+    <string name="finish">已结束</string>
+    <string name="download_tip">您还没这款游戏呢~</string>
+    <string name="refresh">刷新</string>
+    
+    <!-- 礼包详情 -->
+    <string name="residue">剩余</string>
+    <string name="residue_detail">500</string>
+    <string name="part">份</string>
+    <string name="already_take">已领</string>
+    <string name="already_take_">，已领</string>
+    <string name="already_for_no">已淘</string>
+    <string name="time">次</string>
+    <string name="residue_time">剩余时间：</string>
+    <string name="residue_time_">剩余时间</string>
+    <string name="residue_time_default">26天8小时23分</string>
+    <string name="game_download">下载游戏</string>
+    <string name="take_gift">领取礼包</string>
+    <string name="applicable_platform">【适用平台】：</string>
+    <string name="applicable_platform_default">安卓</string>
+    <string name="applicable_area">【适用区服】</string>
+    <string name="applicable_area_default">全区全服</string>
+    <string name="applicable_validity">【礼包有效期】</string>
+    <string name="applicable_validity_default">2015年6月18日-7月18日</string>
+    <string name="gift_detail">礼包详情</string>
+    <string name="gift_detail_default">金币5w 1级符文*5 强化水晶*5</string>
+    <string name="gift_destription">礼包说明</string>
+    <string name="gift_destription_default">人物达到20级-游戏界面又上方</string>
+    <string name="gift_remark">备注</string>
+    <string name="gift_remark_default">该礼包适用于87873手机平台下载的游戏，同类礼包只可领取一次</string>
+    <string name="new_gift">最新礼包</string>
+
+    <!-- 我的收藏页 -->
+    <string name="wodeshoucang">我的收藏</string>
+    <string name="game">游戏</string>
+    <string name="information">资讯</string>
+    <string name="no_collect">您还没有任何收藏</string>
+    <string name="to_see">去逛逛</string>
+    <string name="login_to_collect">登录完成后才可进行收藏</string>
+    
+    <!-- 我的礼包 -->
+    <string name="delete">删除</string>
+    <string name="all">全选</string>
+    
+    <!-- 意见反馈 -->
+	<string name="contact_way">联系方式</string>
+	<string name="mobile_or_email">为了方便联系，请填写联系方式</string>
+	<string name="leave_your_advice">请输入内容</string>
+	<string name="submit">提交</string>
+	
+	<!-- 找回密码 -->
+	<string name="find_password">找回密码</string>
+	<string name="sms_code">请输入短信验证码</string>
+	<string name="code">验证码</string>
+	<string name="code_default">323r</string>
+	<string name="get_sms_code">点击获取</string>
+	<string name="next">下一步</string>
+	<string name="new_password">6&#8211;18位新密码</string>
+	<string name="input_password">6&#8211;18位密码</string>
+	<string name="confirm_new_password">确认新密码</string>
+	<string name="modify">修改</string>
+	<string name="reset">重置</string>
+	
+	<!-- 注册 -->
+	<string name="register_page">注册页面</string>
+	<string name="re_input_password">请再次输密码</string>
+	<string name="get_code">获取验证码</string>
+	<string name="have_account">已有账号？</string>
+	<string name="login_"><u>登录</u></string>
+	<string name="mobile_register">手机注册</string>
+	<string name="user_name_register">用户名注册</string>
+	<string name="user_name">6&#8211;18位字母、数字、下划线组合</string>
+	
+	<!-- 搜索 -->
+	<string name="search">搜索</string>
+	<string name="search_gift_">搜礼包</string>
+	<string name="search_page">搜索页面</string>
+	<string name="input_game_name">输入游戏名进行搜索</string>
+	<string name="change">换一批</string>
+	<string name="qr_code">二维码</string>
+	<string name="light_on">开灯</string>
+	<string name="search_none">没有搜索到您要的游戏~</string>
+	<string name="back_home">返回首页</string>
+	
+	<!-- 加载失败页面 -->
+	<string name="load_failure">加载失败</string>
+	<string name="check_your_network">请检查您的网络</string>
+	<string name="try_refresh">重新加载</string>
+	
+	<!-- 加载没有数据 -->
+	<string name="load_no_data">没有数据</string>
+	
+</resources>

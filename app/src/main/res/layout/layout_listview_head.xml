@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_listHead"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_gift_new" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/spacing_4"
+            android:text="@string/new_gift"
+            android:textColor="@color/mine_text_black_323232"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/tv_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_refresh"
+            android:clickable="true"
+            android:text="@string/refresh"
+            android:textColor="@drawable/text_selector_gift_refresh"
+            android:textSize="@dimen/text_size_14" />
+
+        <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="6dp"
+            android:clickable="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_gift_refresh" />
+    </RelativeLayout>
+
+    <include layout="@layout/line" />
+
+</LinearLayout>

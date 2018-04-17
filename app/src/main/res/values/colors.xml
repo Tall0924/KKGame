@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 通用 -->
+    <color name="white">#FFFFFF</color>  <!-- 白色 -->
+    <color name="black">#000000</color>  <!-- 黑色 -->
+    <color name="translucent_background">#60000000</color> 
+    <color name="color_press">#33000000</color> 
+    <color name="theme_color">#33A0FD</color>
+    
+    <!-- 主页背景色 -->
+    <color name="home_bg">#F0F0F0</color>
+    <color name="home_tab_text_p">#33A0FD</color>
+    <color name="home_tab_text_n">#808080</color>
+    <color name="home_tab_bg">#FFFFFF</color>
+    <color name="line">#E5E5E5</color>
+    <color name="line_CCCCCC">#CCCCCC</color>
+    <!-- 标题背景颜色 -->
+    <color name="bg_title">#fafafa</color>
+    <!-- 空格颜色 -->
+    <color name="bg_space">#F0F0F0</color>
+    <!-- 首页中间4个tab颜色 -->
+    <color name="text_index_tag">#333333</color>
+    <!-- 首页 -->
+    <color name="index_title_bg">#439BFF</color>
+    <color name="index_title">#333333</color>
+    <color name="text_index">#333333</color>
+    <color name="text_index2">#666666</color>
+    <!-- 排行页序号颜色 -->
+    <color name="text_rank">#666666</color>
+    <!-- 首页导航背景 -->
+    <color name="index_nav">#FFFFFF</color>
+    <color name="index_nav_n">#F0F0F0</color>
+    <color name="index_nav_p">#33A0FD</color>
+    <color name="text_index_nav_n">#333333</color>
+    <color name="text_index_nav_p">#33A0FD</color>
+    <color name="index_item_bg">#FFFFFF</color>
+    <color name="text_index_rank_nav_n">#F9C349</color>
+    <color name="text_index_rank_nav_p">#FFFFFF</color>
+    <color name="text_index_download_btn_n">#33A0FD</color>
+    <color name="text_index_download_btn_p">#FFFFFF</color>
+    <!-- 分类页类别字体颜色 -->
+    <color name="text_classify_type">#323232</color>
+    <!-- 分类tag字体颜色 -->
+    <color name="text_classify_tag_n">#363636</color>
+    <color name="text_classify_tag_p">#33A0FD</color>
+    <!-- 分类详情页 -->
+    <color name="text_classifydetail_tag_p">#33A0FD</color>
+    <color name="text_classifydetail_tag_n">#7F8C8D</color>
+    <color name="bg_classifydetail_tag_n">#FFFFFF</color>
+    <color name="bg_classifydetail_tag_p">#66FFFFFF</color>
+    <!-- 首页搜索 -->
+    <color name="text_index_search">#666666</color>
+    <!-- 专题列表字体颜色 -->
+    <color name="text_subject_list_title">#333333</color>
+    <color name="text_subject_detail">#333333</color>
+    <color name="text_subject_list_time">#666666</color>
+    <!-- 游戏详情 -->
+    <color name="text_game_detail_collect">#B2B2B2</color>
+    <color name="text_game_detail_collected">#FF818B</color>
+    <color name="color_game_detail_progress">#0a6db9</color>
+    <color name="color_game_detail_bg">#33a0fd</color>
+    <!-- 我的 -->
+    <color name="mine_bg">#EBECE7</color>
+    <color name="new_mine_bg">#F7F7F7</color>
+    <color name="mine_about_us_text_color">#000000</color>
+    <color name="mine_head_line">#FFB400</color>
+    <color name="mine_border">#FFB400</color>
+    <color name="mine_text_gray">#777777</color>
+    <color name="mine_login_line">#F6BA31</color>
+    <color name="mine_text_blue_33A0FD">#33A0FD</color>
+    <color name="mine_user_info_line">#dfdede</color>
+    <color name="mine_user_info_boy">#1998FA</color>
+    <color name="mine_user_info_girl">#F358CF</color>
+    <color name="mine_dialog_text_color">#F9C349</color>
+    
+    <color name="mine_text_black_333333">#333333</color>
+    <color name="mine_text_black_323232">#323232</color>
+    <color name="mine_text_black_424242">#424342</color>
+    <color name="mine_text_black_4C4C4C">#4C4C4C</color>
+    <color name="mine_text_gray_4D4D4D">#4D4D4D</color>
+    <color name="mine_text_gray_575757">#575757</color>
+    <color name="mine_text_gray_636363">#636363</color>
+    <color name="mine_text_gray_808080">#808080</color>
+    <color name="mine_text_gray_D8D8D8">#D8D8D8</color>
+    <color name="mine_text_gray_666666">#666666</color>
+    <color name="mine_text_gray_a8a8a8">#a8a8a8</color>
+    <color name="mine_text_gray_999999">#999999</color>
+    <color name="mine_text_orange_D8985D">#D8985D</color>
+    <color name="mine_text_red_ff0000">#ff0000</color>
+    
+    <!-- 礼包 -->
+    <color name="gift_residue">#F35B43</color>
+    <color name="gift_content">#989797</color>
+    <color name="gift_detail_residue">#FE5946</color>
+    <color name="mine_color_green_78BC05">#78BC05</color>
+    
+    <!-- 礼包详情 -->
+    <color name="gift_detail_text_bg">#EBECE7</color>
+    
+    <!-- 搜索 -->
+    <color name="search_text_random_color_01">#F9C349</color>
+    <color name="search_text_random_color_02">#39BFA6</color>
+    <color name="search_text_random_color_03">#D255CE</color>
+    <color name="search_text_random_color_04">#5E89E8</color>
+    <color name="search_text_random_color_05">#7DAF50</color>
+    <color name="search_text_random_color_06">#54B9DE</color>
+    <color name="search_text_random_color_07">#262A7D</color>
+    <color name="search_text_random_color_08">#504E3E</color>
+    <color name="viewfinder_mask">#70666666</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="corner_color">#439BFF</color>
+    
+    <!-- 对话框 -->
+    <color name="transparent">#00ffffff</color>
+    <color name="dialog_text_title">#F9C349</color>
+    
+    <!-- 畅言颜色 -->
+    <color name="toolbar_bg">#fcfcfc</color>
+    <color name="toolbar_border">#e5e5e5</color>
+    <color name="list_title">#33a0fd</color>
+    <color name="before_clk">#dbdbdb</color>
+    <color name="after_clk">#33a0fd</color>
+    <color name="toolbar_btn">#33a0fd</color>
+    
+</resources>

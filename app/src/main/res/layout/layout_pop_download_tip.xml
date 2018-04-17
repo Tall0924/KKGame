@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/pop_bg_2"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/spacing_6">
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/download_tip"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_14"
+        />
+
+</LinearLayout>

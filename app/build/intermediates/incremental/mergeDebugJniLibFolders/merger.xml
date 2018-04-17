@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Workspace_AS\87873game_as\app\src\main\jniLibs"><file name="armeabi/libbspatch.so" path="D:\Workspace_AS\87873game_as\app\src\main\jniLibs\armeabi\libbspatch.so"/></source></dataSet><dataSet config="debug"><source path="D:\Workspace_AS\87873game_as\app\src\debug\jniLibs"/></dataSet></merger>

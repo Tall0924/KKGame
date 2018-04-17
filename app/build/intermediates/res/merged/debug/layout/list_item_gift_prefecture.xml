@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/color_item_press"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="@dimen/game_icon_width"
+            android:layout_height="@dimen/game_icon_width"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_game_meng" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10dp" >
+
+            <TextView
+                android:id="@+id/tv_giftName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gift_name_default"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/mine_text_black_333333"
+                android:textSize="@dimen/text_size_16" />
+
+            <ProgressBar
+                android:id="@+id/pb_giftResidue"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="@dimen/spacing_6"
+                android:layout_marginRight="@dimen/spacing_6"
+                android:max="100"
+                android:progress="30"
+                android:progressDrawable="@drawable/gift_progress_bg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_6"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gift_content"
+                    android:textColor="@color/mine_text_gray_999999"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:id="@+id/tv_giftContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="@string/gift_content_default"
+                    android:textColor="@color/mine_text_gray_999999"
+                    android:textSize="@dimen/text_size_14" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_giftResidue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingLeft="4dp"
+            android:text="@string/gift_residue_default"
+            android:textColor="@color/mine_text_blue_33A0FD"
+            android:textSize="@dimen/text_size_14" 
+            android:visibility="gone"/>
+        <TextView 
+            android:id="@+id/tv_status"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:background="@drawable/btn_gift_copy"
+            android:text="@string/take"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textColor="@drawable/btn_gift_copy_text_selector"
+            android:textSize="@dimen/text_size_14" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/mine_user_info_line" />
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_calendar_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="23dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_calendar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="@string/choice_date"
+                android:textColor="@color/mine_text_black_333333"
+                android:textSize="@dimen/text_size_18" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="-1.0dip"
+            android:layout_marginTop="16dp"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <com.xtone.game87873.general.widget.wheel.WheelView
+                android:id="@+id/year"
+                android:layout_width="0.0px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-1.0dip"
+                android:layout_weight="1.0" />
+
+            <com.xtone.game87873.general.widget.wheel.WheelView
+                android:id="@+id/month"
+                android:layout_width="0.0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <com.xtone.game87873.general.widget.wheel.WheelView
+                android:id="@+id/day"
+                android:layout_width="0.0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_10"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/btn_cancle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/btn_corner_s_gray"
+                android:text="@string/cancle"
+                android:textColor="@color/mine_text_gray_4D4D4D"
+                android:textSize="@dimen/text_size_18" />
+            
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/btn_corner_s_blue"
+                android:text="@string/ok"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_18" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg" >
+
+    <LinearLayout
+        android:id="@+id/llTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_title"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ivReturn"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:scaleType="center"
+                android:src="@drawable/btn_title_return" />
+
+            <com.xtone.game87873.general.widget.AutoScrollTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/ivShare"
+                android:layout_toRightOf="@id/ivReturn"
+                android:gravity="left"
+                android:textColor="@color/index_title"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@id/ivShare"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/noshow"
+                android:padding="10dp"
+                android:scaleType="center"
+                android:src="@drawable/btn_head_share" />
+
+            <ImageView
+                android:id="@+id/ivDownload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:scaleType="center"
+                android:src="@drawable/btn_title_download" />
+
+            <ImageView
+                android:id="@id/noshow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:scaleType="center"
+                android:src="@drawable/btn_title_download"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_below="@id/llTitle" >
+
+        <RelativeLayout
+            android:id="@+id/gameItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/ivIcon"
+                android:layout_width="@dimen/game_icon_width"
+                android:layout_height="@dimen/game_icon_width"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_game" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/ivCollect"
+                android:layout_toRightOf="@id/ivIcon"
+                android:orientation="vertical" >
+
+                <com.xtone.game87873.general.widget.AutoScrollTextView
+                    android:id="@+id/tvGameName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvGameDes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tvState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@id/ivCollect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:src="@drawable/icon_detail_collect" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/llDownload"
+            android:layout_below="@id/gameItem"
+            android:orientation="vertical" >
+
+            <include layout="@layout/line" />
+
+            <RadioGroup
+                android:id="@+id/rgNav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rbDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/detail"
+                    android:textColor="@drawable/color_index_nav_text"
+                    android:textSize="@dimen/text_index_nav" />
+
+                <RadioButton
+                    android:id="@+id/rbGift"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/gift"
+                    android:textColor="@drawable/color_index_nav_text"
+                    android:textSize="@dimen/text_index_nav" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/iv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_weight="1"
+                    android:src="@color/text_index_nav_p" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/iv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_weight="1"
+                    android:src="@color/text_index_nav_p" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <include layout="@layout/line" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/llDownload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <include layout="@layout/line" />
+
+            <RelativeLayout
+                android:id="@+id/rlDownload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/home_tab_bg"
+                android:paddingBottom="10dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp" >
+
+                <include
+                    android:id="@+id/detail_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    layout="@layout/btn_download" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/il_loadFailure"
+        android:layout_below="@+id/llTitle"
+        layout="@layout/layout_load_failure"
+        android:visibility="gone" />
+
+</RelativeLayout>

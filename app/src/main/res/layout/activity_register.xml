@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_head_title" />
+
+    <RadioGroup
+        android:id="@+id/rg_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/index_nav"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbtn_mobileRegister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center|center_horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/mobile_register"
+            android:textColor="@drawable/color_index_nav_text"
+            android:textSize="@dimen/text_index_nav" />
+
+        <RadioButton
+            android:id="@+id/rbtn_userNameRegister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center|center_horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/user_name_register"
+            android:textColor="@drawable/color_index_nav_text"
+            android:textSize="@dimen/text_index_nav" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/line"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@color/text_index_nav_p" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@color/text_index_nav_p" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:scrollbars="@null" >
+
+                <LinearLayout
+                    android:id="@+id/llPic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical" >
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7dp"
+                    android:drawableLeft="@drawable/icon_intro"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="@string/game_intro"
+                    android:textColor="#323232"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:id="@+id/tvIntro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.2"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#808080"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvIntroOpen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/extend"
+                    android:textColor="#2692f8"
+                    android:textSize="14sp" />
+
+                <include layout="@layout/line" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llPrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7dp"
+                    android:drawableLeft="@drawable/ic_game_cue"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="@string/game_Prompt"
+                    android:textColor="#323232"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:id="@+id/tvPrompt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.2"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#808080"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvPromptOpen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/extend"
+                    android:textColor="#2692f8"
+                    android:textSize="14sp" />
+
+                <include layout="@layout/line" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llUpdateLog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7dp"
+                    android:drawableLeft="@drawable/ic_game_update"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="@string/game_update_log"
+                    android:textColor="#323232"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:id="@+id/tvUpdateLog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.2"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#808080"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvUpdateOpen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/extend"
+                    android:textColor="#2692f8"
+                    android:textSize="14sp" />
+
+                <include layout="@layout/line" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:orientation="vertical" >
+
+                <include layout="@layout/line" />
+
+                <com.xtone.game87873.general.widget.NoScrollListView
+                    android:id="@+id/lvInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:gravity="center"
+                    android:listSelector="@android:color/transparent"
+                    android:stretchMode="columnWidth" />
+
+                <include layout="@layout/line" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:orientation="vertical" >
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7dp"
+                    android:drawableLeft="@drawable/icon_game_like"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="@string/game_like"
+                    android:textColor="#323232"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/line" />
+
+                <com.xtone.game87873.general.widget.NoScrollGridView
+                    android:id="@+id/gvGame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="4" />
+                <include layout="@layout/line" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

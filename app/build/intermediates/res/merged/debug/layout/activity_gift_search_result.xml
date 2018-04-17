@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    
+    <include layout="@layout/layout_head_title"/>
+    
+    <com.xtone.game87873.general.widget.xlistview.XListView 
+        android:id="@+id/lv_giftList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:listSelector="@color/transparent"/>
+
+</LinearLayout>

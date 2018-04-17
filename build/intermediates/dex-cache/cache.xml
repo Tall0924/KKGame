@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\pushSDK\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85fe9708889edcb8b6eb163840e4518c3214daee">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\classes_ec460df1ba606b6f836f049fe807e1e5ef3a0ca3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03e186fabdab66983e2b2aa42a2b2de7cb37dc4a">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\umeng_social_sdk_d13f5c1732fbba3954195fccac8cf3c2b2323f93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\android-sdk-windows\.android\build-cache\9f290b1c305a087dead25d4f1d2cf212ef2adbb3\output\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_7ccdfe468c2f77f9114d58ac275d4f87e2e20916.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\SocialSDK_QQZone_2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a69b33758dcba3ef519cbd4b6c8af5f41603c4f">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_2_fd20776517ffa036334550f2c37ba9d4ae3a1c62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\111\.gradle\caches\modules-2\files-2.1\org.androidannotations\androidannotations-api\3.3.2\7d6149d856b880bbd676047aacb8446a758fbbdb\androidannotations-api-3.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7d6149d856b880bbd676047aacb8446a758fbbdb">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\androidannotations-api-3.3.2_73a8ab6d11221e518fb866e661efa6dfa89aec75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\httpmime-4.1.3_60e52117e20227ce0269a88fdcef972229c81692.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_b36bf656eaae3eb5511154cf7556cc19515c11a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\umeng-update-v2.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5cb4e8ae2b3dbe3c81ac642b03065c7a0c2ce39e">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\umeng-update-v2.7.0_831ab06ebc8042c23ad49ca76b7ebe96aab4b6de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\CySDK.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b2c02a738ac0fce3be950b9da805a9a23fa834">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\CySDK_4be2287dc18fb1405687d194e619dcb4a65fbbec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\SocialSDK_QQZone_1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_1_83438e659e5ea7576810f326e2c5257b175898f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\pushSDK\build\intermediates\bundles\default\libs\okio-1.6.0 .jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc96a1b8821438d09a3fdbd22f7206d4dee358c3">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\okio-1.6.0 _7626586fcae834a2c92407fc90480571e74a5dcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\SocialSDK_Sina.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f11202cb71112f923a80c75d42e029fc53257e9c">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\SocialSDK_Sina_fd7d2536cc8a6572307995a9524968cc1367a26c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\pushSDK\build\intermediates\bundles\default\libs\wire-runtime-1.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95e4248d19e9a5e6d5c6534adc8690629e707687">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\wire-runtime-1.7.0_a720398b20096fadd907bece52eeb18843ddf4e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\ormlite-android-4.45.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ff8c21e8d0162333559f35cafd6a2238a33e5ba">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\ormlite-android-4.45_8f60792b57f9a2854200f84f69f4d1178f81d1c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\volley_4df96cf23904c2e758070d1d33eb02948a670f92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8962f50f03ab83787c2c3035d0c79fe79cb0f67d">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_3_40999430a8a990e07e1858b995b00ffe189b380d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4aa8d4cde1e2201e5360daaae4bd9fdbf4194d2a">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2_7e74162603f5876ff621a143e17ef3750434feff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14_38aa81bc7f6d7edece0c90d211216a50d197cefb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\zxing.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5cf8fe9735729561c334c4a33803c332d32de888">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\zxing_183baee9239f73bb21082c4c5683e4fd1762668c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_1_d31c54dccb82df8912fe73a45926bc8dbab85bbd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\umeng-analytics-v5.6.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf324c2f968604935d48434b57832aaaca91def0">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.6.7_097c939114f61f6db29651d1d8d8fe75a3572d24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\android-sdk-windows\.android\build-cache\9f290b1c305a087dead25d4f1d2cf212ef2adbb3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\classes_707effcf0c03d47a85975ab72def91e45f890e40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\pushSDK\build\intermediates\bundles\default\libs\com.umeng.message_v2.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bed831289570395ea3e61dde027f3c291ac4f1d0">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\com.umeng.message_v2.7.0_ffb9e363c92b79ac2364f6378b0025df05204f9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\SocialSDK_renren_2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd574d1ead3d089fb270e9a778726d5e890131b5">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\SocialSDK_renren_2_e4f342b7487b5f5b6205cfec2991ef92906e47e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\okhttp-2.7.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a15a7db50f86c4b64aa3367424a60e3a325b8f1">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\okhttp-2.7.5_d80ae4e680901aac1475e8b633db55f8415eb3f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_c5d4535e4cffd5260b742a6238deab0485b0be8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\SocialSDK_renren_1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ca209d760b28d73bbe444888cdd0c20eeaacbc3">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\SocialSDK_renren_1_0308d41f8099fc37915bbf5dd4aec6964f9eb79e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace_AS\87873game_as\app\libs\ormlite-core-4.45.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3db7b73aecea723803e10b068777cf09ed42d4be">
+        <dex dex="D:\Workspace_AS\87873game_as\app\build\intermediates\pre-dexed\debug\ormlite-core-4.45_978b8cd8aba8de2346c15e00e0765b52ba582db0.jar" />
+    </item>
+
+</items>

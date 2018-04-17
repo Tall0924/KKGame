@@ -1,0 +1,4 @@
+#Mon Apr 09 16:05:30 CST 2018
+base.0=D\:\\Workspace_AS\\87873game_as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\Workspace_AS\\87873game_as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

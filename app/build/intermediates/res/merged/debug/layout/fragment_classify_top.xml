@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+
+    <com.xtone.game87873.general.widget.NoScrollGridView
+        android:id="@+id/gvTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:stretchMode="columnWidth" >
+    </com.xtone.game87873.general.widget.NoScrollGridView>
+
+</LinearLayout>

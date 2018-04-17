@@ -1,0 +1,107 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From 87873game2_push:
+* .factorypath
+* compile-libs\
+* compile-libs\androidannotations-3.0.1.jar
+* ic_launcher-web.png
+* proguard-project.txt
+* 相关资料\
+* 相关资料\xtone.keystore
+* 相关资料\xtoneapp.keystore
+* 相关资料\友盟消息推送.txt
+* 相关资料\密钥的密码.txt
+* 相关资料\第三方资料.txt
+From PushSDK:
+* build.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In PushSDK:
+* AndroidManifest.xml => pushSDK\src\main\AndroidManifest.xml
+* assets\ => pushSDK\src\main\assets
+* libs\arm64-v8a\libcocklogic.so => pushSDK\src\main\jniLibs\arm64-v8a\libcocklogic.so
+* libs\arm64-v8a\libtnet-2.1.20.1-agoo.so => pushSDK\src\main\jniLibs\arm64-v8a\libtnet-2.1.20.1-agoo.so
+* libs\armeabi-v7a\libcocklogic.so => pushSDK\src\main\jniLibs\armeabi-v7a\libcocklogic.so
+* libs\armeabi-v7a\libtnet-2.1.20.1-agoo.so => pushSDK\src\main\jniLibs\armeabi-v7a\libtnet-2.1.20.1-agoo.so
+* libs\armeabi\libcocklogic.so => pushSDK\src\main\jniLibs\armeabi\libcocklogic.so
+* libs\armeabi\libtnet-2.1.20.1-agoo.so => pushSDK\src\main\jniLibs\armeabi\libtnet-2.1.20.1-agoo.so
+* libs\com.umeng.message_v2.7.0.jar => pushSDK\libs\com.umeng.message_v2.7.0.jar
+* libs\mips64\libcocklogic.so => pushSDK\src\main\jniLibs\mips64\libcocklogic.so
+* libs\mips64\libtnet-2.1.20.1-agoo.so => pushSDK\src\main\jniLibs\mips64\libtnet-2.1.20.1-agoo.so
+* libs\mips\libcocklogic.so => pushSDK\src\main\jniLibs\mips\libcocklogic.so
+* libs\mips\libtnet-2.1.20.1-agoo.so => pushSDK\src\main\jniLibs\mips\libtnet-2.1.20.1-agoo.so
+* libs\okio-1.6.0 .jar => pushSDK\libs\okio-1.6.0 .jar
+* libs\wire-runtime-1.7.0.jar => pushSDK\libs\wire-runtime-1.7.0.jar
+* libs\x86\libcocklogic.so => pushSDK\src\main\jniLibs\x86\libcocklogic.so
+* libs\x86\libtnet-2.1.20.1-agoo.so => pushSDK\src\main\jniLibs\x86\libtnet-2.1.20.1-agoo.so
+* libs\x86_64\libcocklogic.so => pushSDK\src\main\jniLibs\x86_64\libcocklogic.so
+* libs\x86_64\libtnet-2.1.20.1-agoo.so => pushSDK\src\main\jniLibs\x86_64\libtnet-2.1.20.1-agoo.so
+* res\ => pushSDK\src\main\res\
+* src\ => pushSDK\src\main\java
+In 87873game2_push:
+* .apt_generated\ => _87873game2_push\src\main\java\
+* AndroidManifest.xml => _87873game2_push\src\main\AndroidManifest.xml
+* assets\ => _87873game2_push\src\main\assets\
+* libs\androidannotations-api-3.0.1.jar => _87873game2_push\libs\androidannotations-api-3.0.1.jar
+* libs\armeabi\libbspatch.so => _87873game2_push\src\main\jniLibs\armeabi\libbspatch.so
+* libs\CySDK.jar => _87873game2_push\libs\CySDK.jar
+* libs\httpmime-4.1.3.jar => _87873game2_push\libs\httpmime-4.1.3.jar
+* libs\okhttp-2.7.5.jar => _87873game2_push\libs\okhttp-2.7.5.jar
+* libs\ormlite-android-4.45.jar => _87873game2_push\libs\ormlite-android-4.45.jar
+* libs\ormlite-core-4.45.jar => _87873game2_push\libs\ormlite-core-4.45.jar
+* libs\SocialSDK_QQZone_1.jar => _87873game2_push\libs\SocialSDK_QQZone_1.jar
+* libs\SocialSDK_QQZone_2.jar => _87873game2_push\libs\SocialSDK_QQZone_2.jar
+* libs\SocialSDK_QQZone_3.jar => _87873game2_push\libs\SocialSDK_QQZone_3.jar
+* libs\SocialSDK_renren_1.jar => _87873game2_push\libs\SocialSDK_renren_1.jar
+* libs\SocialSDK_renren_2.jar => _87873game2_push\libs\SocialSDK_renren_2.jar
+* libs\SocialSDK_Sina.jar => _87873game2_push\libs\SocialSDK_Sina.jar
+* libs\SocialSDK_WeiXin_1.jar => _87873game2_push\libs\SocialSDK_WeiXin_1.jar
+* libs\SocialSDK_WeiXin_2.jar => _87873game2_push\libs\SocialSDK_WeiXin_2.jar
+* libs\umeng-analytics-v5.6.7.jar => _87873game2_push\libs\umeng-analytics-v5.6.7.jar
+* libs\umeng-update-v2.7.0.jar => _87873game2_push\libs\umeng-update-v2.7.0.jar
+* libs\umeng_social_sdk.jar => _87873game2_push\libs\umeng_social_sdk.jar
+* libs\universal-image-loader-1.9.5.jar => _87873game2_push\libs\universal-image-loader-1.9.5.jar
+* libs\volley.jar => _87873game2_push\libs\volley.jar
+* libs\xUtils-2.6.14.jar => _87873game2_push\libs\xUtils-2.6.14.jar
+* libs\zxing.jar => _87873game2_push\libs\zxing.jar
+* lint.xml => _87873game2_push\lint.xml
+* res\ => _87873game2_push\src\main\res\
+* src\ => _87873game2_push\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

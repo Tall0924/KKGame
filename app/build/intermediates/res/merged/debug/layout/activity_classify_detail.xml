@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_left_title" />
+
+    <com.xtone.game87873.general.widget.NoScrollGridView
+        android:id="@+id/gvTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/home_bg"
+        android:gravity="center"
+        android:horizontalSpacing="1px"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:paddingBottom="10dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1px"
+        android:visibility="gone" >
+    </com.xtone.game87873.general.widget.NoScrollGridView>
+
+    <RelativeLayout
+        android:id="@+id/rlTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/index_nav_n"
+        android:visibility="gone" >
+
+        <com.xtone.game87873.general.widget.SyncHorizontalScrollView
+            android:id="@+id/shsTags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvAll"
+            android:fadingEdge="none"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/llTags"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </com.xtone.game87873.general.widget.SyncHorizontalScrollView>
+
+        <TextView
+            android:id="@id/tvAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/all_item"
+            android:textColor="@color/text_index2"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_nav_right"
+            style="@style/theme_wrap"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/iv_navagation_scroll_right"
+            android:visibility="visible" >
+        </ImageView>
+        <!-- <ImageView -->
+        <!-- android:id="@+id/iv_nav_left" -->
+        <!-- style="@style/theme_wrap" -->
+        <!-- android:layout_centerVertical="true" -->
+        <!-- android:src="@drawable/iv_navagation_scroll_left" -->
+        <!-- android:visibility="visible" > -->
+        <!-- </ImageView> -->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/rgNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rbHot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/hotest"
+                android:textColor="@drawable/color_index_nav_text"
+                android:textSize="@dimen/text_index_nav" />
+
+            <ImageView
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/line" />
+
+            <RadioButton
+                android:id="@+id/rbNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/newest"
+                android:textColor="@drawable/color_index_nav_text"
+                android:textSize="@dimen/text_index_nav" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/line"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="@color/text_index_nav_p" />
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="@color/text_index_nav_p" />
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vpContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

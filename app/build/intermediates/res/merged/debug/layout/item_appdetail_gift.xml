@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_item_press"
+        android:padding="15dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_status"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvGiftName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_gameinfo_gift"
+                android:drawablePadding="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvGiftContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#808080"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@id/tv_status"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_gift_copy"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="@string/take"
+            android:textColor="@drawable/btn_gift_copy_text_selector"
+            android:textSize="@dimen/text_size_14" />
+    </RelativeLayout>
+
+</LinearLayout>

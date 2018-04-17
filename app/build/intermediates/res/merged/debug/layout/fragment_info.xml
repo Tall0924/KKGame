@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/outer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@color/new_mine_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/llLogin"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/mine_top_bg"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.xtone.game87873.general.widget.CircleImageView
+                android:id="@+id/iv_user_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/icon_user_default_mine"
+                app:border_color="#54B1EF"
+                app:border_width="2dp" />
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="@string/click_to_login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_mineGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color_item_press"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_14" >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_mine_game" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/spacing_10"
+                android:text="@string/mine_game"
+                android:textColor="@color/mine_text_gray_575757"
+                android:textSize="@dimen/text_size_16" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_arrow_2" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@color/line" />
+        
+        <LinearLayout
+            android:id="@+id/ll_mineGift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color_item_press"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_14" >
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_mine_gift" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/spacing_10"
+                android:text="@string/mine_gift"
+                android:textColor="@color/mine_text_gray_575757"
+                android:textSize="@dimen/text_size_16" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_arrow_2" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:id="@+id/ll_mineFavorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color_item_press"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_14" >
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_mine_favorites" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/spacing_10"
+                android:text="@string/mine_favorites"
+                android:textColor="@color/mine_text_gray_575757"
+                android:textSize="@dimen/text_size_16" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_arrow_2" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/ll_downloadManager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color_item_press"
+            android:gravity="center_vertical"
+            android:padding="@dimen/spacing_14" >
+
+            <ImageView
+                android:id="@+id/iv_download_manager"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_download_manager" />
+
+            <TextView
+                android:id="@+id/tv_download_manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_download_manager"
+                android:paddingLeft="@dimen/spacing_10"
+                android:text="@string/download_manager"
+                android:layout_centerVertical="true"
+                android:textColor="@color/mine_text_gray_575757"
+                android:textSize="@dimen/text_size_16" />
+            <TextView
+                android:id="@+id/tv_showBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/tv_download_manager"
+                android:layout_centerVertical="true"
+                android:textColor="@color/mine_text_gray_575757"
+                android:textSize="@dimen/text_size_16" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_arrow_2" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:id="@+id/ll_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color_item_press"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_14" >
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_mine_set" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/spacing_10"
+                android:text="@string/sys_setting"
+                android:textColor="@color/mine_text_gray_575757"
+                android:textSize="@dimen/text_size_16" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_arrow_2" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:id="@+id/ll_gameRecommend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color_item_press"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_14" >
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_mine_recommend" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/spacing_10"
+                android:text="@string/mine_recommend"
+                android:textColor="@color/mine_text_gray_575757"
+                android:textSize="@dimen/text_size_16" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_arrow_2" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:id="@+id/ll_voucher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color_item_press"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_14" >
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_mine_voucher" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/spacing_10"
+                android:text="@string/mine_voucher"
+                android:textColor="@color/mine_text_gray_575757"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/spacing_6"
+                android:text="@string/mine_coming_soon"
+                android:textColor="@color/mine_text_gray_a8a8a8"
+                android:textSize="@dimen/text_size_12" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_arrow_2" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@color/line" />
+    </LinearLayout>
+
+</ScrollView>

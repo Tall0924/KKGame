@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp" >
+
+            <include layout="@layout/include_layout_slide" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/index_item_bg"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/rlXinyou"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/color_press"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_icon1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/icon_xinyou" />
+
+                    <TextView
+                        android:id="@+id/tv_text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_icon1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/index_xinyou"
+                        android:textColor="@color/text_index"
+                        android:textSize="@dimen/text_index" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlJingbao"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/color_press"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_icon2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/icon_jingbao" />
+
+                    <TextView
+                        android:id="@+id/tv_text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_icon2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/index_jinbao"
+                        android:textColor="@color/text_index"
+                        android:textSize="@dimen/text_index" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlBibei"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/color_press"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_icon3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/icon_bibei" />
+
+                    <TextView
+                        android:id="@+id/tv_text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_icon3"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/index_bibei"
+                        android:textColor="@color/text_index"
+                        android:textSize="@dimen/text_index" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlWangyou"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/color_press"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_icon4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/icon_wangyou" />
+
+                    <TextView
+                        android:id="@+id/tv_text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_icon4"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/index_wangyou"
+                        android:textColor="@color/text_index"
+                        android:textSize="@dimen/text_index" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/index_nav_n" />
+
+            <com.xtone.game87873.general.widget.NoScrollListView
+                android:id="@+id/lvContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

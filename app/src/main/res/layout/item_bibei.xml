@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_classify"
+        android:drawablePadding="5dp"
+        android:padding="5dp"
+        android:text="单机必备" />
+
+    <include layout="@layout/line" />
+
+    <com.xtone.game87873.general.widget.NoScrollGridView
+        android:id="@+id/gvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4" />
+
+    <include layout="@layout/line" />
+
+</LinearLayout>

@@ -1,0 +1,506 @@
+[
+    {
+        "outputFile": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 652,
+                        "endColumn": 50,
+                        "endOffset": 698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 49,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 601,
+                        "endColumn": 49,
+                        "endOffset": 646
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 46,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 46,
+                        "endOffset": 240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 54,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 425,
+                        "endColumn": 54,
+                        "endOffset": 475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 258,
+                    "endColumn": 54,
+                    "endOffset": 308
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 369,
+                        "endColumn": 54,
+                        "endOffset": 419
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 313,
+                    "endColumn": 48,
+                    "endOffset": 357
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 530,
+                        "endColumn": 48,
+                        "endOffset": 574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 362,
+                    "endColumn": 47,
+                    "endOffset": 405
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 481,
+                        "endColumn": 47,
+                        "endOffset": 524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 410,
+                    "endColumn": 50,
+                    "endOffset": 456
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 317,
+                        "endColumn": 50,
+                        "endOffset": 363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 461,
+                    "endColumn": 50,
+                    "endOffset": 507
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 265,
+                        "endColumn": 50,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 512,
+                    "endColumn": 50,
+                    "endOffset": 558
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 732,
+                        "endColumn": 50,
+                        "endOffset": 778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 563,
+                    "endColumn": 41,
+                    "endOffset": 600
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 79,
+                        "endColumn": 41,
+                        "endOffset": 116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 605,
+                    "endColumn": 48,
+                    "endOffset": 649
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 48,
+                        "endOffset": 166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 654,
+                    "endColumn": 41,
+                    "endOffset": 691
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 36,
+                        "endColumn": 41,
+                        "endOffset": 73
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Workspace_AS\\87873game_as\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 652,
+                        "endColumn": 50,
+                        "endOffset": 698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 49,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 601,
+                        "endColumn": 49,
+                        "endOffset": 646
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 46,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 46,
+                        "endOffset": 240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 54,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 425,
+                        "endColumn": 54,
+                        "endOffset": 475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 258,
+                    "endColumn": 54,
+                    "endOffset": 308
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 369,
+                        "endColumn": 54,
+                        "endOffset": 419
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 313,
+                    "endColumn": 48,
+                    "endOffset": 357
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 530,
+                        "endColumn": 48,
+                        "endOffset": 574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 362,
+                    "endColumn": 47,
+                    "endOffset": 405
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 481,
+                        "endColumn": 47,
+                        "endOffset": 524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 410,
+                    "endColumn": 50,
+                    "endOffset": 456
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 317,
+                        "endColumn": 50,
+                        "endOffset": 363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 461,
+                    "endColumn": 50,
+                    "endOffset": 507
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 265,
+                        "endColumn": 50,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 512,
+                    "endColumn": 50,
+                    "endOffset": 558
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 732,
+                        "endColumn": 50,
+                        "endOffset": 778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 563,
+                    "endColumn": 41,
+                    "endOffset": 600
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 79,
+                        "endColumn": 41,
+                        "endOffset": 116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 605,
+                    "endColumn": 48,
+                    "endOffset": 649
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 48,
+                        "endOffset": 166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 654,
+                    "endColumn": 41,
+                    "endOffset": 691
+                },
+                "from": {
+                    "file": "D:\\Workspace_AS\\87873game_as\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 36,
+                        "endColumn": 41,
+                        "endOffset": 73
+                    }
+                }
+            }
+        ]
+    }
+]

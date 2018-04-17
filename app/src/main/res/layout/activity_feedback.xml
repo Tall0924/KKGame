@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mine_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_head_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_way"
+            android:textColor="@color/mine_text_black_333333"
+            android:textSize="@dimen/text_size_16" />
+
+        <EditText
+            android:id="@+id/edt_mobileOrEmail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_10"
+            android:background="@drawable/edit_bg_2"
+            android:hint="@string/mobile_or_email"
+            android:inputType="number|textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/mine_text_gray_999999"
+            android:textSize="@dimen/text_size_16" />
+        <ImageView 
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="@dimen/spacing_4"
+            android:src="@drawable/icon_important"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+    <include layout="@layout/line"/>
+    <ListView 
+        android:id="@+id/lv_message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:listSelector="@android:color/transparent"
+        android:divider="@null"
+        android:paddingLeft="@dimen/spacing_10"
+        android:paddingRight="@dimen/spacing_10"
+        ></ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" 
+        android:background="@color/mine_text_gray_D8D8D8">
+
+        <EditText
+            android:id="@+id/edt_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_bg_1"
+            android:hint="@string/leave_your_advice"
+            android:padding="10dp"
+            android:textColor="@color/mine_text_gray_999999"
+            android:textSize="@dimen/text_size_16" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_corner_s_blue"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18" />
+    </LinearLayout>
+
+</LinearLayout>

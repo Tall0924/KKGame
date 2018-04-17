@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_head_title" />
+
+    <include
+        android:id="@+id/il_loadFailure"
+        layout="@layout/layout_load_failure"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_operate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="10dp" >
+
+                <Button
+                    android:id="@+id/btn_delete"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="@dimen/spacing_10"
+                    android:background="@drawable/btn_corner_s_red"
+                    android:text="@string/delete"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_16" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/all"
+                    android:textColor="@color/mine_text_black_333333"
+                    android:textSize="@dimen/text_size_16" />
+
+                <ImageView
+                    android:id="@+id/iv_all"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="@dimen/spacing_6"
+                    android:background="@drawable/cb_my_gift_unselected"
+                    android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <include layout="@layout/line" />
+        </LinearLayout>
+
+        <com.xtone.game87873.general.widget.xlistview.XListView
+            android:id="@+id/lv_myGift"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null" >
+        </com.xtone.game87873.general.widget.xlistview.XListView>
+    </LinearLayout>
+
+</LinearLayout>

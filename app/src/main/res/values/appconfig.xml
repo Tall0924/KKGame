@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <string name="image_dir">/project_manager/image/</string> -->
+
+
+    <!-- <string name="base_url">http://192.168.1.43:8070/zijin-interface</string> -->
+    <!-- <string name="base_url">http://121.43.234.167:8070/zijin-interface</string> -->
+
+
+    <!-- <string name="base_url">http://192.168.1.26:8080/zijin-interface</string> -->
+    <!-- <string name="image_url">http://192.168.1.26:8070/zijin-main</string> -->
+
+
+    <!-- Log文件配置，正式发布后需要修改 -->
+    <string name="log">true</string>
+    <!-- global exception -->
+    <string name="global_exception_action">com.example.baseproject.general.utils.GlobalExceptionHanlder</string>
+    <string name="global_exception_sdcard_dir">/87873game/log/</string>
+    <string name="global_exception_enable">true</string>
+    <!-- global exception end -->
+
+
+    <!-- xlistview lsq -->
+    <string name="nav_desc">nav_desc</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <!-- end -->
+
+</resources>

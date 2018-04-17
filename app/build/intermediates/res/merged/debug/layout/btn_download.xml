@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom" >
+
+    <ProgressBar
+        android:id="@+id/pb_download_btn"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_download"
+        android:layout_alignTop="@id/btn_download"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_selector" />
+
+    <Button
+        android:id="@id/btn_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_download_info_detail"
+        android:padding="10dp"
+        android:text="@string/download"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

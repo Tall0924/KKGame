@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/pop_bg_1"
+    android:padding="@dimen/spacing_4" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copy_sucess"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_14"
+        />
+
+</LinearLayout>
